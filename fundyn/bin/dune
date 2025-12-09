@@ -1,0 +1,4 @@
+(executable
+ (public_name fundyn)
+ (name main)
+ (libraries fundynLib))

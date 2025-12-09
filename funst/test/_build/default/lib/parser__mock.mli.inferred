@@ -1,0 +1,31 @@
+type token =
+    TRUE
+  | THEN
+  | TAKES
+  | RPAREN
+  | REC
+  | PLUS
+  | OR
+  | NOT
+  | MUL
+  | MINUS
+  | LPAREN
+  | LET
+  | LESS
+  | LEQ
+  | IN
+  | IF
+  | ID of string
+  | FUN
+  | FALSE
+  | EQ
+  | EOF
+  | ELSE
+  | CONST of string
+  | COMMA
+  | APPL
+  | AND
+val menhir_begin_marker : int
+val xv_prog : Ast.expr
+val xv_expr : Ast.expr
+val menhir_end_marker : int

@@ -1,0 +1,4 @@
+(executable
+ (public_name funtypeinf)
+ (name main)
+ (libraries funtypeinfLib))
