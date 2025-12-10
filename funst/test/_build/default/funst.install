@@ -1,8 +1,0 @@
-lib: [
-  "_build/install/default/lib/funst/META"
-  "_build/install/default/lib/funst/dune-package"
-  "_build/install/default/lib/funst/opam"
-]
-bin: [
-  "_build/install/default/bin/funst"
-]
